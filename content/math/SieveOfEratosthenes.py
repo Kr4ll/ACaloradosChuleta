@@ -1,5 +1,4 @@
-# Python program to print all
-# primes smaller than or equal to
+# All primes smaller than or equal to
 # n using Sieve of Eratosthenes
 def SieveOfEratosthenes(n):
     # Create a boolean array
