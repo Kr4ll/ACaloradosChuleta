@@ -1,6 +1,5 @@
- Alternative Topological Sort algorithm
+# Alternative Topological Sort algorithm
 from collections import deque
-
 def altTopSort(g):
 	inEdges = [0 for _ in range(len(g))]
 	for v in range(len(g)):
