@@ -12,3 +12,8 @@ def gcdExtended(a, b):
     x = y1 - (b//a) * x1
     y = x1
     return gcd, x, y
+
+
+# Function to return LCM of two numbers 
+def lcm(a,b): 
+    return (a // gcdExtended(a,b))* b 
