@@ -1,5 +1,4 @@
 # Python program to print prime factors
- 
 import math
 # A function to print all prime factors of 
 # a given number n
