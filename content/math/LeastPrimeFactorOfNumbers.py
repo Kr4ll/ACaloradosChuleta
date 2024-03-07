@@ -1,5 +1,4 @@
-# Python 3 program to print the 
-# least prime factors of numbers
+# Print the least prime factors of numbers
 # less than or equal to n using
 # modified Sieve of Eratosthenes
 def leastPrimeFactor(n) :
