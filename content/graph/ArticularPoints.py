@@ -15,8 +15,7 @@ def artPointsRec(g, visited, v, ap, d, low, parent, t):
 		if not visited[adj]:
 			children += 1
 			parent[adj] = v
-			artPointsRec(g, visited, adj, ap, d, low, parent, t
-			)
+			artPointsRec(g, visited, adj, ap, d, low, parent, t)
 			if low[adj] < low[v]:
 				low[v] = low[adj]
 			checkAP(v, adj, children, parent, ap, low, d)
