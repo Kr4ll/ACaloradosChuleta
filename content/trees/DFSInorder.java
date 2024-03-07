@@ -1,4 +1,4 @@
-class Node {
+static class Node {
     int key;
     Node left, right;
     public Node(int item)
@@ -7,7 +7,7 @@ class Node {
         left = right = null;
     }
 }
-class BinaryTree {
+static class BinaryTree {
     // Root of Binary Tree
     Node root;
     BinaryTree() { root = null; }
@@ -18,13 +18,12 @@ class BinaryTree {
             return;
         // First recur on left child
         printInorder(node.left);
- 
         // Then print the data of node
         System.out.print(node.key + " ");
- 
         // Now recur on right child
         printInorder(node.right);
     }
+}
 // Driver code
 public static void main(String[] args)
 {
@@ -34,7 +33,6 @@ public static void main(String[] args)
     tree.root.right = new Node(3);
     tree.root.left.left = new Node(4);
     tree.root.left.right = new Node(5);
-
     // Function call
     System.out.println(
         "Inorder traversal of binary tree is ");
