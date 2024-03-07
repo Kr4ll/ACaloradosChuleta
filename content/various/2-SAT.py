@@ -96,7 +96,7 @@ def main():
     # Number of variables, number of clauses
     n, m = 5, 7
  
-    # Example CNF (x1+x2)*(x2’+x3)*(x1’+x2’)*(x3+x4)*(x3’+x5)*(x4’+x5’)*(x3’+x4)
+    # Example CNF (x1+x2)*(x2'+x3)*(x1'+x2')*(x3+x4)*(x3'+x5)*(x4'+x5')*(x3'+x4)
     a = [1, -2, -1, 3, -3, -4, -3]
     b = [2, 3, -2, 4, 5, -5, 4]
  
