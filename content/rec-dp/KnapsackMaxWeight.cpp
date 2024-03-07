@@ -25,6 +25,6 @@ int main() {
     vi weights = {1, 1, 1, 1};
     int capacity = 7;
     int max_weight = knapsack(weights, capacity);
-    cout << "El peso máximo que se puede llevar en la mochila es: " << max_weight << endl;
+    cout << "Maximum weight that can carry the bag is: " << max_weight << endl;
     return 0;
 }
