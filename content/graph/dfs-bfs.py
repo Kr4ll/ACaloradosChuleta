@@ -36,6 +36,9 @@ def bfs(g, visited, v):
 		for adj in g[aux]:
 			if not visited[adj]:
 				q.append(adj)
+				
+Ordenar listas con dos keys:minus means decreasing way
+s = sorted(s, key = lambda x: (-x[0], x[1], x[2]))
 		
 
 
