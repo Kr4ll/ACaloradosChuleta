@@ -1,4 +1,4 @@
-  GNU nano 6.2                                                                                        KitchenKit.h                                                                                                 
+                                                                               KitchenKit.h                                                                                                 
 /**
  * Author: Diego 
  * License: CC0
@@ -7,7 +7,6 @@
  * Time: no time
  * Status: tested on http://codeforces.com/contest/321/problem/E
  */
-#pragma once
 
  static class FastReader {
         BufferedReader br;
