@@ -61,3 +61,12 @@ Complexity:
    50  O(n^4)
    20  O(2^n)
    13  O(n!),O(n^6)
+
+Java:
+   int 10^9
+   float 10^18
+   BigInteger unlimited
+Python:
+   int unlimited
+C++:
+   long long: 10^18
