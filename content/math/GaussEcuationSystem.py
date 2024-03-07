@@ -1,6 +1,5 @@
 # Gaussian Elimination method
 N = 3
-# function to get matrix content
 def gaussianElimination(mat):
     # reduction into r.e.f.
     singular_flag = forwardElim(mat)
