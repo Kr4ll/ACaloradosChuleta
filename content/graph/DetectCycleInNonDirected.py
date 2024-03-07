@@ -1,5 +1,4 @@
  def isCyclicUtil(g, v, visited, parent):
- 
         # Mark current node as visited and
         visited[v] = True
         # Recur for all neighbours
@@ -10,12 +9,10 @@
                     return True
              elif parent != i:
                 return True
- 			
         # The node needs to be popped from
         # recursion stack before function ends
         recStack[v] = False
         return False
- 
     # Returns true if graph is cyclic else false
     def isCyclic(g):
     	n=len(g)
