@@ -1,4 +1,3 @@
-
 # Python program to merge overlapping Intervals in
 # O(n Log n) time and O(1) extra space
 def mergeIntervals(arr):
