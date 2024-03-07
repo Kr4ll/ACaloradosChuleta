@@ -1,4 +1,3 @@
-
 # Calcular el mod muchas veces, util cuando el divisor es fijo y conocido.
 #Time Complexity: O(log b) 
 # Calculates (a * b) % mod
