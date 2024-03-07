@@ -22,9 +22,8 @@ int knapsack(vi w, int t) {
 }
 int main() {
     // Ejemplo de entrada
-    vi weights = {1, 1, 1, 1}; // Lista de pesos de los objetos
-    int capacity = 7; // Capacidad máxima de la mochila
-    // Llamada a la función knapsack
+    vi weights = {1, 1, 1, 1};
+    int capacity = 7;
     int max_weight = knapsack(weights, capacity);
     cout << "El peso máximo que se puede llevar en la mochila es: " << max_weight << endl;
     return 0;
