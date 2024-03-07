@@ -1,4 +1,4 @@
-lass GFG {
+class GFG {
  
     // A utility function to swap two elements
     static void swap(int[] arr, int i, int j)
