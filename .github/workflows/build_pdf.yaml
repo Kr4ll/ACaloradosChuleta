@@ -1,0 +1,31 @@
+name: Install pdflatex and Compile LaTeX
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Install CMake
+      run: |
+        sudo apt update
+        sudo apt install -y cmake
+      
+    - name: Check CMake version
+      run: cmake --version
+      
+    - name: Install pdflatex
+      run: |
+        sudo apt update
+        sudo apt install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra
+      
+    - name: Check pdflatex version
+      run: pdflatex --version
+
+    - name: Build PDF
+      run: make kactl
