@@ -1,13 +1,3 @@
-                                                                               KitchenKit.h                                                                                                 
-/**
- * Author: Diego 
- * License: CC0
- * Source: Codeforces
- * Description: FastReader para inputs en java
- * Time: no time
- * Status: tested on http://codeforces.com/contest/321/problem/E
- */
-
  static class FastReader {
         BufferedReader br;
         StringTokenizer st;
