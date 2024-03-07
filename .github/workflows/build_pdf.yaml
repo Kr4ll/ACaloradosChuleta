@@ -1,4 +1,4 @@
-name: Install pdflatex and Compile LaTeX
+name: Build PDF
 
 on:
   workflow_dispatch:
