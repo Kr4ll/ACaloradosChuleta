@@ -50,3 +50,14 @@ What do your teammates think about your algorithm?
 Memory limit exceeded:
 What is the max amount of memory your algorithm should need?
 Are you clearing all data structures between test cases?
+
+Complexity
+   	100000M O(1)
+   	100M O(log(n))
+   	1M  O(n)
+   	100K O(nlog(n)
+   	1000O(n²)
+   	100 O(n³)
+   	50  O(n4)
+   	20  O(2^n)
+   	13  O(n!),O(n⁶)
