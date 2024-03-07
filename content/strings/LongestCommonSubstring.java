@@ -27,4 +27,5 @@
         int m=X.length();
         int n=Y.length();
         System.out.println(LCSubStr(X,Y,m,n));
+        // Output: Geeks
     }
