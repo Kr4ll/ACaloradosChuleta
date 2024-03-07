@@ -1,5 +1,4 @@
-# Iterative Function to
-# calculate (x^y) in O(logy)
+# Calculate (x^y) in O(logy)
 def power(x, y):
     # Initialize result
     res = 1
