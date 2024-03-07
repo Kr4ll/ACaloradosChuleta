@@ -1,7 +1,5 @@
-# Python program to demonstrate working of extended
-# Euclidean Algorithm
+# Euclidean for MCD, Naive for MCM
 # Alternativa usar el inbuilt de math.gcd()
-# function for extended Euclidean Algorithm
 def gcdExtended(a, b):
     # Base Case
     if a == 0:
