@@ -1,5 +1,5 @@
 class Graph:
-    # similar to dijkstra but can deal with negative weights
+    # find shortest path dealing with negative weigths
     def __init__(self, vertices):
         self.V = vertices  # No. of vertices
         self.graph = []
