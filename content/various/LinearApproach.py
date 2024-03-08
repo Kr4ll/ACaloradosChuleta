@@ -5,8 +5,10 @@ if __name__=='__main__':
     # Iterating from lower_bound to upper_bound 
     for i in range(lower_bound, upper_bound + 1):
         print(i)
+        stdout.flush()
         # Input the response from the judge 
         response = int(input())
         if (response == 0):
-            print("Number guessed is :", i, end = '') 
+            print("Number guessed is :", i, end = '')
+            stdout.flush()
             break;
