@@ -1,6 +1,5 @@
 def floydWarshall(graph, n):
-	dist = list(map(lambda i: list(map(lambda j: j, i)), graph)
-	)
+	dist = list(map(lambda i: list(map(lambda j: j, i)), graph))
 	for k in range(n):
 		for i in range(n):
 			for j in range(n):
@@ -13,8 +12,8 @@ def printSolution(dist, n):
 	for i in range(n):
 		for j in range(n):
 			if(dist[i][j] > 0x3f3f3a):
-				print(’INF\t’, end=" ")
+				print('INF\t', end=" ")
 			else:
-				print(f’{dist[i][j]}\t’, end=’ ’)
+				print(f'{dist[i][j]}\t', end=' ')
 			if j == n-1:
 				print()
