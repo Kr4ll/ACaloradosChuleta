@@ -1,6 +1,5 @@
 lower_bound = 2
 upper_bound = 10
-# Number to be guessed is 9
 # Applying Binary Search interactively
 while (lower_bound <= upper_bound) :
     mid = (lower_bound + upper_bound) // 2
