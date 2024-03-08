@@ -1,5 +1,5 @@
-# similar to dijkstra but can deal with negative weights
 class Graph:
+    # similar to dijkstra but can deal with negative weights
     def __init__(self, vertices):
         self.V = vertices  # No. of vertices
         self.graph = []
