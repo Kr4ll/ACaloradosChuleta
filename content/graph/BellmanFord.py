@@ -1,5 +1,4 @@
 class Graph:
-    # find shortest path dealing with negative weigths
     def __init__(self, vertices):
         self.V = vertices  # No. of vertices
         self.graph = []
@@ -50,5 +49,5 @@ if __name__ == '__main__':
     g.addEdge(3, 2, 5)
     g.addEdge(3, 1, 1)
     g.addEdge(4, 3, -3)
-    # function call
+    # find shortest path dealing with negative weigths
     g.BellmanFord(0)
